@@ -1,7 +1,9 @@
 # Jam WiFi dengan modul esp8266
+
 ## Wemos D1 Mini atau NodeMCU
 
 Komponen:
+
 - Max7219 x 4 Dot Matrix Module 4in1 Display for Arduino 32x8
 - Wemos D1 Mini atau NodeMCU
 - Kabel jumper
@@ -17,8 +19,8 @@ Estimasi Budget (Maret 2023):
 ||||
 |Total | IDR 116.000 | IDR 131.000|
 
+# Skema
 
-# Skecth
 ![alt text](https://github.com//brifeb/Jam-Digital-WiFi-ESP8266/blob/master/img/skema.png?raw=true)
 
 | LED Matrix Pin | ESP8266 Pin |
@@ -28,14 +30,3 @@ Estimasi Budget (Maret 2023):
 | DIN            | D7 |
 | CS             | D4 |
 | CLK            | D5 |
-
-
-
-
-
-
-
-
-
-
-

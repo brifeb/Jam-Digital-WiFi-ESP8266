@@ -35,8 +35,8 @@ int wait = 70; // In milliseconds
 int spacer = 1;
 int width  = 5 + spacer; // The font width is 5 pixels
 // WiFi login parameters - network name and password
-const char* ssid = "AZZAM";
-const char* password = "azzamc230";
+const char* ssid = "WIFINAME";
+const char* password = "WIFIPASS";
 
 void setup() {
   pinMode(pinBuzz, OUTPUT);
@@ -74,38 +74,6 @@ void loop() {
   //  delay(500);
 
 
-
-  // buzz
-  if (time_value[4] == '9') {
-    if (timerIsOFF) {
-      timerStart = millis();
-      timerIsOFF = false;
-      Serial.println("start timer");
-    }
-
-    unsigned long delayKeBuzz = 46 * 1000;
-    Serial.println(delayKeBuzz);
-    Serial.println(millis() - timerStart);
-
-    if ((millis() - timerStart) > delayKeBuzz) {
-      Serial.println("delayKeBuzz");
-      
-      
-      if (belumbunyi) {
-        Serial.println(">>>>>>>>>>>>>>> bunyii");
-        digitalWrite(pinBuzz, LOW);
-        delay(10);
-        digitalWrite(pinBuzz, HIGH);
-        belumbunyi = false;
-      } 
-      
-    }
-
-
-  } else {
-    belumbunyi = true;
-    timerIsOFF = true;
-  }
 
 
   //for (int i = 0; i < 10; i++) {
