@@ -1,8 +1,21 @@
 # Jam WiFi dengan modul esp8266
 
-## Wemos D1 Mini atau NodeMCU
+### Wemos D1 Mini atau NodeMCU
+Youtube: [https://www.youtube.com/watch?v=AhU7EykZbcQ](https://www.youtube.com/watch?v=AhU7EykZbcQ)
 
-Komponen:
+# Skema
+
+![alt text](https://github.com//brifeb/Jam-Digital-WiFi-ESP8266/blob/master/img/skema.png?raw=true)
+
+| LED Matrix Pin | ESP8266 Pin |
+| --- | --- |
+| Vcc            | 3v3 |
+| Gnd            | Gnd |
+| DIN            | D7 |
+| CS             | D4 |
+| CLK            | D5 |
+
+# Komponen
 
 - Max7219 x 4 Dot Matrix Module 4in1 Display for Arduino 32x8
 - Wemos D1 Mini atau NodeMCU
@@ -19,17 +32,5 @@ Estimasi Budget (Maret 2023):
 ||||
 |Total | IDR 116.000 | IDR 131.000|
 
-# Skema
-
-![alt text](https://github.com//brifeb/Jam-Digital-WiFi-ESP8266/blob/master/img/skema.png?raw=true)
-
-| LED Matrix Pin | ESP8266 Pin |
-| --- | --- |
-| Vcc            | 3v3 |
-| Gnd            | Gnd |
-| DIN            | D7 |
-| CS             | D4 |
-| CLK            | D5 |
-
-# Video
-Lihat di [Youtube](https://www.youtube.com/watch?v=AhU7EykZbcQ)
+# 
+> ndoware @2024
