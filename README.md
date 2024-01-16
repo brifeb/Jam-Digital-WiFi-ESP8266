@@ -30,3 +30,6 @@ Estimasi Budget (Maret 2023):
 | DIN            | D7 |
 | CS             | D4 |
 | CLK            | D5 |
+
+# Video
+[Youtube] (https://www.youtube.com/watch?v=AhU7EykZbcQ)
